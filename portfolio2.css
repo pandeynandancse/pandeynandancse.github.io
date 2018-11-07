@@ -39,17 +39,6 @@
 }
 /* done image '.im' in center of/inside of div named '.cont' */  
 
-.bott{
-	position:fixed;
-	display:flex;
-	bottom:0;
-align-items: center;
-	justify-content: center;
-	display: inline-block;
-	margin: 0 auto;
-}
-
-
 
 
 @media only screen and (max-width:768px){
@@ -80,7 +69,12 @@ align-items: center;
 		width:20%;
 	}
 
+	.co{
+		display: relative;
+		width:50%;
+		float:left;
+		
+	}
 	
-
 
 }
