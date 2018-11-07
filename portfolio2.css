@@ -58,10 +58,13 @@
 		
 	}
 
+	.mail{
+		margin-left: 5%;
+	}
 	.cont{
 		width:50%;
 		float: left;
-		margin-bottom: 2%;
+		margin-bottom: 4%;
 	}
 
 	.im{
@@ -70,11 +73,22 @@
 	}
 
 	.co{
-		display: relative;
+		
 		width:50%;
 		float:left;
+		margin-bottom: 5%;
 		
 	}
+	#coo{
+		
+		width:80%;
+		float:left;
+		margin-left :15%;
+	}
 	
-
+#mail{
+	margin-left:10%;
+}
+	
+	
 }
