@@ -39,7 +39,11 @@
 }
 /* done image '.im' in center of/inside of div named '.cont' */  
 
-
+.me{
+	font-family: monospace;
+	color: #4169E1;
+	font-size: 40px;
+}
 
 @media only screen and (max-width:768px){
 	#name{
@@ -83,7 +87,7 @@
 		
 		width:80%;
 		float:left;
-		margin-left :15%;
+		margin-left :12%;
 	}
 
 	#imma{
