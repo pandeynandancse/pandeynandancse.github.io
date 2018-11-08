@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>My Portfolio</title>
+  <title>Bootstrap Example</title>
   <meta charset="utf-8">
    <link rel="stylesheet" type="text/css" href="portfolio2.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,18 +36,19 @@
             <li><a href="#">Page 1-3</a></li>
           </ul>
         </li>
-        <li><a href="#">Page 2</a></li>
+        <li><a href="#profile">My Profile</a></li>
         <li><a href="#">Page 3</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Contact Us</a></li>
+        <li><a href="#contact"><span class="glyphicon glyphicon-user"></span> Contact Us</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Achievments</a></li>
       </ul>
     </div>
   
 </nav>
+</div>
   <br><br>
-      <div>
+      <div class = "row">
             <div class = "col-sm-6 col-md-6 col-lg-6" id = "photos">
              <img id = "img2"src = "https://lh5.googleusercontent.com/-c3eR1quZsEM/AAAAAAAAAAI/AAAAAAAAADc/usMGpJAWqTY/il/photo.jpg">
             </div>
@@ -64,42 +65,55 @@
 
       </div>
 
-</div>
+
 <br><br><br><br><br><br><br><br><br>
-     <div class = "row">
+    <div  id = "profile">
+      <div class = "row">
+        <center><p class = "me">My Profile</p></center>
+
+      </div><br>
+      <div class = "row">
          <a href = "https://www.linkedin.com/in/nandan-pandey"><div class = "col-6 col-sm-3 col-md-3 col-lg-3 cont">
-            <img class = "im"src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/1200px-Linkedin.svg.png">
+            <img class = "im"src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/1200px-Linkedin.svg.png" title = "linkedin">
           </div></a>
           <a href = "https://github.com/pandeynandancse"><div class = "col-6 col-sm-3 col-md-3 col-lg-3 cont">
-            <img class = "im" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-8qjtsh9MUe0_zWeQT4BCGmXzP9hZcHybv88hM7DkjVYoEKPvIQ" >
+            <img class = "im" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-8qjtsh9MUe0_zWeQT4BCGmXzP9hZcHybv88hM7DkjVYoEKPvIQ"title="github" >
           </div></a>
           <a href = "https://www.hackerrank.com/pandeynandancse"><div class = "col-6 col-sm-3 col-md-3 col-lg-3 cont">
-            <img class = "im"src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9bWqutxIcJk-Bt3TV8ZRHXglqsF9dJwj-kX5gQjLGS0slWVrp">
+            <img class = "im"src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9bWqutxIcJk-Bt3TV8ZRHXglqsF9dJwj-kX5gQjLGS0slWVrp" title = "hackerrank">
           </div></a>
           <a href = "https://www.codecademy.com/pandeynandancse"><div class = "col-6 col-sm-3 col-md-3 col-lg-3 cont">
-            <img class = "im"src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs-JQxCbchj6Xxt-RvTT3B_0RS-wDecZaNbYajM4nOFMhlsK2Ziw">
+            <img class = "im"src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs-JQxCbchj6Xxt-RvTT3B_0RS-wDecZaNbYajM4nOFMhlsK2Ziw" title="codecademy">
           </div></a>
           
           
       </div>
+    </div>
 
       <br><br><br><br><br><br><br><br><br>
-      <div class = "row" id = "mail">
-        <div class ="col-sm-2 col-md-2 col-lg-2" ></div>
-          <div class = "col-sm-3 col-md-3 col-lg-3 co" >
-            <img class = "ima2" src = "https://www.clker.com/cliparts/4/t/u/Y/I/Q/big-phone-red.svg">9906677387
-          </div>
 
-          <div class = "col-sm-3 col-md-3 col-lg-3 co">
-            <img class = "ima" src = "http://www.homehypercity.co.za/img/0266/661.png?sitetimestamp=636639610630000000">9906677387
-          </div>
-        
-        <div class = "col-sm-3 col-md-3 col-lg-3 co" id ="coo">
-            <img class = "ima" id ="imma"src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS69m38MLs5vzvScwS5mM0zBdXxjGFTNhD6OB4wjlV2D5C48-M9"><small>pandeynandancse@gmail.com</small>
-          </div>
-       
-       <div class ="col-sm-1 col-md-1 col-lg-1" ></div>
+      <div id = "contact">
+            <div class = "row">
+              <center><p class = "me">Contact Us</p></center>
 
+            </div><br>
+            <div class = "row" id = "mail">
+              <div class ="col-sm-2 col-md-2 col-lg-2" ></div>
+                <div class = "col-sm-3 col-md-3 col-lg-3 co" >
+                  <img class = "ima2" src = "https://www.clker.com/cliparts/4/t/u/Y/I/Q/big-phone-red.svg">9906677387
+                </div>
+
+                <div class = "col-sm-3 col-md-3 col-lg-3 co">
+                  <img class = "ima" src = "http://www.homehypercity.co.za/img/0266/661.png?sitetimestamp=636639610630000000">9906677387
+                </div>
+              
+              <div class = "col-sm-3 col-md-3 col-lg-3 co" id ="coo">
+                  <img class = "ima" id ="imma"src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS69m38MLs5vzvScwS5mM0zBdXxjGFTNhD6OB4wjlV2D5C48-M9"><small>pandeynandancse@gmail.com</small>
+                </div>
+             
+             <div class ="col-sm-1 col-md-1 col-lg-1" ></div>
+
+            </div>
       </div>
 
 </div>
