@@ -10,15 +10,11 @@ nav.topbar{
     left: 0;
 }
 
-.me{
-	justify-content: center;
-	text-align: center;
-	align-items: center;
-}
+
 #cen{
-	justify-content: center;
+	
 	text-align: center;
-	align-items: center;
+	
 /* done fixing navbar on top */
 #navb{
 	background-color:#0000CD;
