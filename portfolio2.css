@@ -10,6 +10,11 @@ nav.topbar{
     left: 0;
 }
 
+.me{
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
 /* done fixing navbar on top */
 #navb{
 	background-color:#0000CD;
@@ -31,6 +36,7 @@ nav.topbar{
 	right:0;
 	position:fixed;
 	cursor : pointer;
+
 
 }
 
@@ -146,6 +152,20 @@ nav.topbar{
 		margin-bottom: 4%;
 	}
 
+	#scrol{
+	display: none;
+	color:red;
+	height: 15%;
+	width: 10%;
+	bottom: 0;
+	right:0;
+	position:fixed;
+	cursor : pointer;
+	
+
+}
+
+
 	.im{
 		height:20%;
 		width:20%;
@@ -182,18 +202,8 @@ nav.topbar{
 	#java{
 	height:20%;
 	width: 20%;
-         }
-
-	#scrol{
-	display: none;
-	color:red;
-	
-	width: 10%;
-	bottom: 0;
-	right:0;
-	position:fixed;
-	cursor : pointer;
-
 }
+
+	
 
 }
