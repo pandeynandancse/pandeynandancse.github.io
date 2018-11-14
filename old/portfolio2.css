@@ -1,0 +1,199 @@
+/* fixing navbar on top */
+nav.topbar{
+   
+    position: fixed;
+    width: 100%;
+    
+    opacity: 0.7;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+/* done fixing navbar on top */
+#navb{
+	background-color:#0000CD;
+	
+}
+
+#first{
+	margin-top:5%;
+	background-color: #F8C471  ;
+	padding-top: 5%;
+	padding-bottom:5%;
+}
+#scrol{
+	display: none;
+	color:red;
+	height: 15%;
+	width: 5%;
+	bottom: 0;
+	right:0;
+	position:fixed;
+	cursor : pointer;
+
+}
+
+#profile{
+	background-color:#E59866  ;
+	padding-top: 5%;
+	padding-bottom:5%;
+}
+
+#skills{
+	background-color: #F1948A  ;
+	padding-top: 5%;
+	padding-bottom:5%;
+}
+#contact{
+	background-color: #85929E  ;
+	padding-top: 5%;
+	padding-bottom:5%;
+}
+#name{
+		float:right;
+		/*background-color: red;*/
+		text-align:center;
+	}
+
+/*#photos{
+
+	background-color: green;
+}*/
+
+
+#img2{
+	float:left;
+}
+
+/* doing image '.im' in center of/inside of div named '.cont' */  
+.cont{
+	display: flex;
+}
+.contx{
+	display: flex;
+}
+.im{
+	margin: auto;
+	height:15%;
+	width:15%;
+}
+
+.imm{
+	margin: auto;
+	height:25%;
+	width:25%;
+}
+
+.imm2{
+	margin: auto;
+	height:30%;
+	width:30%;
+}
+.imm21{
+	margin: auto;
+	height:25%;
+	width:25%;
+}
+.ima2{
+	height:20%;
+	width:20%;
+}
+
+.ima{
+	height:15%;
+	width:15%;
+}
+/* done image '.im' in center of/inside of div named '.cont' */  
+
+.me{
+	font-family: monospace;
+	color: #4169E1;
+	font-size: 40px;
+}
+
+#java{
+	height:10%;
+	width: 10%;
+}
+@media only screen and (max-width:768px){
+	#first{
+		margin-top:10%;
+	}
+	#name{
+		width:100%;
+		/*background-color: blue;*/
+	}
+
+	#photos{
+		display: flex;
+		width: 100%;
+		/*background-color: yellow;*/
+	}
+
+	#img2{
+		 margin: auto;
+		
+	}
+
+	.mail{
+		margin-left: 5%;
+	}
+	.cont{
+		
+		width:50%;
+		float: left;
+		margin-bottom: 4%;
+	}
+
+	.im{
+		height:20%;
+		width:20%;
+	}
+
+	.co{
+		
+		width:50%;
+		float:left;
+		margin-bottom: 5%;
+		
+	}
+	#coo{
+		
+		width:80%;
+		float:left;
+		margin-left :12%;
+	}
+
+	#imma{
+		height:5%;
+		width:5%;
+	}
+	
+#mail{
+	margin-left:10%;
+}
+.contx{
+	display: flex;
+}
+.imm21{
+	margin: auto;
+}
+	#java{
+	height:20%;
+	width: 20%;
+         }
+
+	#scrol{
+	display: none;
+	color:red;
+	
+	width: 10%;
+	bottom: 0;
+	right:0;
+	position:fixed;
+	cursor : pointer;
+
+}
+
+}
