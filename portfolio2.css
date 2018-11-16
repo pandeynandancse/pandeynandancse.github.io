@@ -1,4 +1,13 @@
+
 /* fixing navbar on top */
+body{
+	background-image: url("http://devfloat.net/wp-content/uploads/2014/01/programmer-life.jpg");
+	background-attachment: fixed;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-origin: content-box;
+}
+
 nav.topbar{
    
     position: fixed;
@@ -31,8 +40,10 @@ nav.topbar{
 }
 
 #first{
+	border-radius: 25px; 
+	border: 2px dotted #73AD21;
 	margin-top:5%;
-	background-color: #F8C471  ;
+	/*background-color: #F8C471  ;*/
 	padding-top: 5%;
 	padding-bottom:5%;
 }
@@ -50,18 +61,24 @@ nav.topbar{
 }
 
 #profile{
-	background-color:#E59866  ;
+	/*background-color:#E59866  ;*/
+	border-radius: 25px; 
+	border: 2px dotted #73AD21;
 	padding-top: 5%;
 	padding-bottom:5%;
 }
 
 #skills{
-	background-color: #F1948A  ;
+	/*background-color: #F1948A  ;*/
+	border-radius: 25px; 
+	border: 2px dotted #73AD21;
 	padding-top: 5%;
 	padding-bottom:5%;
 }
 #contact{
-	background-color: #85929E  ;
+	/*background-color: #85929E  ;*/
+	border-radius: 25px; 
+	border: 2px dotted #73AD21;
 	padding-top: 5%;
 	padding-bottom:5%;
 }
