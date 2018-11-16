@@ -149,6 +149,11 @@ nav.topbar{
 	height:10%;
 	width: 10%;
 }
+
+
+#pho{
+	color:#F60808;
+}
 @media only screen and (max-width:768px){
 	#first{
 		margin-top:10%;
