@@ -110,6 +110,15 @@ nav.topbar{
 	margin: auto;
 	height:15%;
 	width:15%;
+	-ms-transition: 2s ease; 
+    -webkit-transition: 2s ease; 
+    transition: 2s ease;
+}
+
+.im:hover{
+	-ms-transform: rotateY(360deg); 
+    -webkit-transform: rotateY(360deg); 
+    transform: rotateY(360deg);
 }
 
 .imm{
