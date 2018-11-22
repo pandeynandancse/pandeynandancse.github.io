@@ -1,108 +1,205 @@
-
 <!DOCTYPE html>
-<html lang="pt-BR" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="André Luís Fiori de Tella">
-    <meta name="description" content="Advisory and consulting in luxury travel">
-    <meta name="keywords" content="luxury travel, luxury, viagens, viagem de luxo">
+<html lang="en">
 
-    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-     integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet">
-    <script src="js/scripts.js"></script>
+<head>
+  <title>My site</title>
+  <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="portfolio2.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 
-    <title>Viajando Muito</title>
-  </head>
-  <body>
-    <div class="navbar" id="navigation">
-      <div class="logo">
-        <h3>Viajando Muito</h3>
-      </div>
-      <div class="links" id="nav">
-        <a href="index.html" class="active">Home</a>
-        <a href="blog.html">Blog</a>
-        <a href="contato.html">Contact</a>
-      </div>
-      <div class="bar">
-        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
-          <i class="fas fa-bars"></i>
-        </a>
-      </div>
-    </div>
 
-    <div class="parallax n1">
-      <div class="hero">
-        <h1>Luxury unique and tailored trips!</h1>
-        <h2>Slide down to know more.</h2>
-      </div>
-    </div>
-    <div class="stripe">
-      <h3>Viajando Muito</h3>
-      <a href="#navigation" class="up"><i class="fas fa-angle-up"></i> Top</a>
-      <p>A dream come true is an one and only sensation! There isn't enough money in the world to pay for it!
-        The intention of <strong>Viajando Muito</strong> isn't selling trips but fulfilling dreams.
-        Thinking about it, we offer exclusive tailored trips for each client.
-        You are unique, your dream is unique so your trip must be unique and special!</p>
-        <p>Contact us and we will take care of your dream with the dedication and kindness that it deserves!</p>
-    </div>
-    <div class="parallax n2"></div>
-    <div class="stripe" id="testimonies">
-      <h3>Custom testimonials</h3>
-      <a href="#navigation" class="up"><i class="fas fa-angle-up"></i> Top</a>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-      <h4>Client testimonies</h4>
-      <div class="container">
-        <div class="slider">
-          <input type="radio" name="slider" title="slide1" checked="checked" class="slider_nav"/>
-          <input type="radio" name="slider" title="slide2" class="slider_nav"/>
-          <input type="radio" name="slider" title="slide3" class="slider_nav"/>
-          <input type="radio" name="slider" title="slide4" class="slider_nav"/>
-          <div class="slider_interno">
-            <div class="slider_conteudo"><i class="slider_imagem far fa-comment"></i>
-              <h2 class="slider_titulo">Perfect choices</h2>
-              <p class="slider_texto">The hotel choices were perfect! Very good locations, excellent services and restaurants, confortable and clean rooms!</p>
-              <h5 class="slider_autor">Willian Smith</h5>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+</head>
+<body>
+	<div class="container">
+     <div class = "row">
+		<nav class="navbar navbar-inverse topbar" id = "navb">
+
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>                        
+				      </button>
+				      <a class="navbar-brand" href="index.html">Portfolio</a>
+				    </div>
+				    <div class="collapse navbar-collapse" id="myNavbar">
+				      <ul class="nav navbar-nav">
+				        <li ><a href="index.html">Home</a></li>
+				        <!--<li class="dropdown">
+				          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Education <span class="caret"></span></a>
+				          <ul class="dropdown-menu">
+				            <li><a href="#">Page 1-1</a></li>
+				            <li><a href="#">Page 1-2</a></li>
+				            <li><a href="#">Page 1-3</a></li>
+				          </ul>
+				        </li>-->
+				        <li><a href="education.html">Education</a></li>
+				        <li><a href="#" id = "myprofile">My Profile</a></li>
+				        <li><a href="#" id = "skils">Signup/Login</a></li>
+         				<li><a href="address.html">Address</a></li>
+				      </ul>
+				      <ul class="nav navbar-nav navbar-right">
+				        <li ><a href="#" id ="contacting" ><span class="glyphicon glyphicon-user"></span> Contact Us</a></li>
+				        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Achievments</a></li>
+				      </ul>
+				    </div>
+  
+		</nav>
+	</div>
+
+
+<br><br>
+<div class="container">
+    <div class = "row" style = "margin-top:5%;">
+    	<div class = col-sm-2></div>
+    	<div class = col-sm-8>
+			<div class="panel panel-info">
+		      <div class="panel-heading" ><h2>Welcome to my site</h2></div>
+		      <div class="panel-body"><marquee><small style = "color:red">Welcome It's my working page : On hovering you can see password to text</small></marquee></div>
+		    </div>
+		</div>
+		<div class = col-sm-2></div>
+	</div>
+</div>
+<br>
+<div class="container">
+  <div class = "row">
+    <div class = col-sm-6>
+
+      	<div id = "sign223" class = "panel-heading"style = "width:100%;background-color: #76D7C4">
+	    	 <p><strong>Are You Registerd User?</strong></p>
+	    	 <button type="submit" class="btn btn-success" onclick = "sign222()">Login</button>
+	    	 <br><br>
+	    	 
+    	</div>
+
+        <div class="panel panel-primary" id = "log" style="display:none;background-color:#76D7C4;width:100%;">
+        	<div class="panel-heading">
+            	Login Form
             </div>
-            <div class="slider_conteudo"><i class="slider_imagem fas fa-award"></i>
-              <h2 class="slider_titulo">The best guides</h2>
-              <p class="slider_texto">The guides on the tours we bought were the best! They showed us many wonderful places and much knowledge about history, art and mithology.</p>
-              <h5 class="slider_autor">Josephine Thoreaux</h5>
-            </div>
-            <div class="slider_conteudo"><i class="slider_imagem far fa-comment"></i>
-              <h2 class="slider_titulo">Everything worked precisely.</h2>
-              <p class="slider_texto">I bought a tailored trip from <strong>Viajando Muito</strong> for me and my family. Everything worked perfectly. I recommend!</p>
-              <h5 class="slider_autor">Edward Kopff</h5>
-            </div>
-            <div class="slider_conteudo"><i class="slider_imagem fas fa-award"></i>
-              <h2 class="slider_titulo">Nice trip! Fair value!</h2>
-              <p class="slider_texto">I contracted <strong>Viajando Muito</strong> to plan my honeymoon. It was a very pleasant time as desired without spending huge amounts of money.</p>
-              <h5 class="slider_autor">Michael Grant</h5>
-            </div>
-          </div>
+
+            <div class = "panel-body">
+            	
+	            <form role = "form" action = "login.php" method = "post">
+	              <div class="form-group">
+	                <label for="email"><i class="far fa-envelope"></i>    Email:</label>
+	                <input type="text" class="form-control" name = "e" id="email" placeholder="Enter email" required>
+	              </div>
+	              <div class="form-group">
+	                <label for="pwd"><i class="fas fa-key"></i>    Password:</label><br>
+	                <div style =  "display : inline-block">
+	                <input type="password" class="form-control" name ="p" id="pwd2" required></div>
+	                <div style =  "display : inline-block;"><img src="https://i.stack.imgur.com/Oyk1g.png" onclick="show2()" id="EYE2" placeholder="Enter password" title="show password"></div>
+	              
+	              </div>
+	              
+	              <button type="submit" class="btn btn-success">Login</button>
+	            </form>
+	        </div>
+
         </div>
-      </div>
-    </div>
-    <div class="parallax n3"></div>
-
-    <div class="stripe" id="contato">
-      <h3>Contact</h3>
-      <a href="#navigation" class="up"><i class="fas fa-angle-up"></i> Top</a>
-      <address>
-        viajandomuito@viajandomuito.com.br<br>
-        +00 (00) 00000-0000
-      </address>
-      <div class="social">
-        <i class="fab fa-facebook-square fa-2x"></i>
-        <i class="fab fa-instagram fa-2x"></i>
-        <i class="fab fa-twitter-square fa-2x"></i>
-        <i class="fab fa-whatsapp fa-2x"></i>
-      </div>
     </div>
 
-  </body>
+    
+
+    <div class = col-sm-6>
+    	
+	
+			    <div id = 'sign2' class = 'panel-heading' style = 'width:100%;background-color:#76D7C4'>
+				    	 <p><strong>Are You New User?</strong></p>
+				    	 <button type='submit' class='btn btn-success' onclick = 'sign22()'>Signup</button>
+				    	 <br><br>
+				    	 
+			    	</div>
+			   
+
+        <div class="panel panel-primary" id ="sign"style="display:none;background-color:#76D7C4;width:100%;">
+            <div class="panel-heading ">
+            	Sign up Form
+            </div>
+
+            <div class = "panel-body">
+            	
+	            <form role = "form" >
+	            	<div class="form-group">
+		                <label for="name"><i class="fa fa-address-book"></i>  Name:</label><br>
+		                <input type="text" class="form-control" name = "n" id="names" placeholder="Enter name" required>
+	                </div>
+	                <div class="form-group">
+		                <label for="email"><i class="far fa-envelope"></i>    Email:</label>
+		                <input type="text" class="form-control" name = "e" id="email" placeholder="Enter email" required>
+	              	</div>
+	                <div class="form-group">
+		                <label for="pwd"><i class="fas fa-key"></i>    Password:</label><br>
+		                <div style =  "display : inline-block">
+		                <input type="password" class="form-control" name = "p" id="pwd" placeholder="Enter password" required minlength="8" maxlength="15"></div>
+		                <div style =  "display : inline-block;"><img src="https://i.stack.imgur.com/Oyk1g.png" onclick="show()" title = "show password"id="EYE" placeholder="Enter password"></div>
+	                </div>  
+
+	                <div class="form-group">
+		                <label for="name">Upload your Image :</label>
+		                <input type="file" class="form-control" name = "img" id="file" >
+	                </div>
+	                <button type="submit" class="btn btn-success">Signup</button>
+	            </form>
+	        </div>
+
+        </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+<script>
+	function show() {
+		var a=document.getElementById("pwd");
+		var b=document.getElementById("EYE");
+		if (a.type=="password")  {
+		a.type="text";
+		b.src="https://i.stack.imgur.com/waw4z.png";
+		}
+		else {
+		a.type="password";
+		b.src="https://i.stack.imgur.com/Oyk1g.png";
+		}
+		
+	}
+
+	
+	function show2() {
+		var a=document.getElementById("pwd2");
+		var b=document.getElementById("EYE2");
+		if (a.type=="password")  {
+		a.type="text";
+		b.src="https://i.stack.imgur.com/waw4z.png";
+		}
+		else {
+		a.type="password";
+		b.src="https://i.stack.imgur.com/Oyk1g.png";
+		}
+	}
+		function sign22(){
+			document.getElementById("sign2").style.display = "none";
+			document.getElementById("sign").style.display = "inline-block";
+			document.getElementById("sign223").style.display = "inline-block";
+			document.getElementById("log").style.display = "none";
+		}
+	
+
+	function sign222(){
+		document.getElementById("sign223").style.display = "none";
+		document.getElementById("log").style.display = "inline-block";
+		document.getElementById("sign").style.display = "none";
+		document.getElementById("sign2").style.display = "inline-block";
+	}
+</script>
+
 </html>
