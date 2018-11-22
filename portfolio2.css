@@ -97,6 +97,11 @@ nav.topbar{
 
 #img2{
 	float:left;
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
 }
 
 /* doing image '.im' in center of/inside of div named '.cont' */  
