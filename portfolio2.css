@@ -192,6 +192,17 @@ opacity:.5;
 	color:red;
 }
 
+#EYE:hover{
+	cursor: pointer;
+}
+
+#EYE2:hover{
+	cursor: pointer;
+}
+
+input {
+    background-position: right;
+}
 
 
 @media only screen and (min-width:1281px){
