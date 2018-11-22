@@ -177,16 +177,31 @@
 <!-- jquery smooth scroll to id's --> 
 <script>
 
+	
+if (document.documentElement.clientWidth > 1280) {
+	function script(){
+     		setTimeout(function(){
+         		document.getElementById('img2').style.right = '60%'; // new left position is 1000px in this example
+     		}, 1000); // 2000 = 2 seconds after page load
+
+     		setTimeout(function(){
+         		document.getElementById('name').style.left = '50%'; // new left position is 1000px in this example
+     		}, 1000);
+	}
+}
+	
+	
 var p = $( "#profile" );
 var offset = p.offset();
 offset = offset.top;
 $(window).scroll(function () {  
     if ($(window).scrollTop()   >  offset ) {
- $('#scrol').fadeIn();
+ 	$('#scrol').fadeIn();
     }
-  else { $('#scrol').fadeOut(); }
+   else { $('#scrol').fadeOut(); }
 });
     
+	
 	
     $("#myprofile").click(function() {
     $('html, body').animate({
@@ -194,12 +209,17 @@ $(window).scroll(function () {
     },500);
 });
 
+	
+	
 
     $("#skils").click(function() {
     $('html, body').animate({
         scrollTop: $("#skills").offset().top-50
     },500);
 });
+	
+	
+	
     $("#contacting").click(function() {
     $('html, body').animate({
         scrollTop: $("#contact").offset().top
@@ -207,11 +227,14 @@ $(window).scroll(function () {
 });
     
 
+	
     $("#scrol").click(function() {
     $('html, body').animate({
         scrollTop: $("#first").offset().top
     },500);
 });
+	
+	
   </script>
 </body>
 </html>
