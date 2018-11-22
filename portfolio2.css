@@ -168,6 +168,43 @@ nav.topbar{
 .pho{
 	color:#F60808;
 }
+
+
+@media only screen and (min-width:1281px){
+
+
+			#name{
+						/*float:right;*/
+						/*background-color: red;*/
+				       text-align:center;
+				       color:#19D9F6;
+				       position:absolute;
+				       left: 30%;
+				       -webkit-transition: left 2s linear;
+				       transition: left 2s linear;
+					/*float:left;*/
+			}
+	
+
+
+				#img2{
+
+				       position:absolute;
+				       right:30%;
+				       -webkit-transition: right 2s linear;
+				       transition: right 2s linear;
+				       -webkit-border-radius: 50%;
+				    -moz-border-radius: 50%;
+				    -ms-border-radius: 50%;
+				    -o-border-radius: 50%;
+				    border-radius: 50%;
+					/*float:left;*/
+				}
+
+
+}
+
+
 @media only screen and (max-width:768px){
 	#first{
 		margin-top:10%;
