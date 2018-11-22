@@ -1,13 +1,16 @@
-
-/* fixing navbar on top */
 body{
 	background-image: url("http://devfloat.net/wp-content/uploads/2014/01/programmer-life.jpg");
 	background-attachment: fixed;
 	 background-repeat: no-repeat;
 	 background-size: cover;
 	 background-origin: content-box;
+	 z-index:-1;
 }
 
+br{
+	background-color:green;
+}
+/* fixing navbar on top */
 nav.topbar{
    
     position: fixed;
@@ -19,30 +22,22 @@ nav.topbar{
     left: 0;
 }
 
-
-#cen{
-	
+.me{
+	justify-content: center;
 	text-align: center;
+	align-items: center;
 }
-#cent{
-	
-	text-align: center;
-}
-#cente{
-	
-	text-align: center;
-}
-	
 /* done fixing navbar on top */
+
+
 #navb{
 	background-color:#0000CD;
 	
 }
 
 #first{
+	margin-bottom :15%;
 	
-	margin-top:5%;
-	/*background-color: #F8C471  ;*/
 	padding-top: 5%;
 	padding-bottom:5%;
 }
@@ -61,32 +56,63 @@ nav.topbar{
 
 #profile{
 	/*background-color:#E59866  ;*/
+	/*border-radius: 25%; */           /* boder radius property*/
 	border-radius: 25px; 
-	border: 2px dotted #73AD21;
+	border: 2px dotted #73AD21; /* border of size styled and color*/
 	padding-top: 5%;
 	padding-bottom:5%;
+	opacity: 0.8;
 }
 
 #skills{
+	
+
+	border: 2px solid #73AD21;
 	/*background-color: #F1948A  ;*/
-	border-radius: 25px; 
-	border: 2px dotted #73AD21;
+	 border-radius: 15px 50px 30px 5px;
 	padding-top: 5%;
 	padding-bottom:5%;
 }
 #contact{
+	border-radius: 25px;
+
+	border: 2px solid #73AD21;
 	/*background-color: #85929E  ;*/
-	border-radius: 25px; 
-	border: 2px dotted #73AD21;
 	padding-top: 5%;
 	padding-bottom:5%;
 }
+
+/* sliding two divs*/
 #name{
-		float:right;
+		/*float:right;*/
+		/*background-color: red;*/
+      float:right;
 		/*background-color: red;*/
 		text-align:center;
-	        color:#19D9F6;
-	}
+	        color:#19D9F6
+}
+	
+
+
+#img2{
+
+       float:left;
+     -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+
+}
+
+
+
+#photos:hover{
+
+opacity:.5;
+}
+
+
 
 /*#photos{
 
@@ -94,14 +120,6 @@ nav.topbar{
 }*/
 
 
-#img2{
-	float:left;
-	-webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
-}
 
 /* doing image '.im' in center of/inside of div named '.cont' */  
 .cont{
@@ -112,11 +130,13 @@ nav.topbar{
 }
 .im{
 	margin: auto;
+	border-radius: 25%; /* ecilipse model*/
 	height:15%;
 	width:15%;
 	-ms-transition: 2s ease; 
     -webkit-transition: 2s ease; 
     transition: 2s ease;
+
 }
 
 .im:hover{
@@ -127,17 +147,20 @@ nav.topbar{
 
 .imm{
 	margin: auto;
+	border-radius: 25%; 
 	height:25%;
 	width:25%;
 }
 
 .imm2{
 	margin: auto;
+	border-radius: 25%; 
 	height:30%;
 	width:30%;
 }
 .imm21{
 	margin: auto;
+	border-radius: 25%; 
 	height:25%;
 	width:25%;
 }
@@ -164,9 +187,11 @@ nav.topbar{
 }
 
 
+
 .pho{
-	color:#F60808;
+	color:red;
 }
+
 
 
 @media only screen and (min-width:1281px){
@@ -202,6 +227,7 @@ nav.topbar{
 
 
 }
+
 
 
 @media only screen and (max-width:768px){
