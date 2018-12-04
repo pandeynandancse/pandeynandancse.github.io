@@ -73,7 +73,7 @@
 <hr>
     <div  id = "profile" >
       <div class = "row">
-        <p class = "me">My Profile</p>
+        <p class = "me" id = "prof">My Profile</p>
 
       </div><br>
       <div class = "row">
@@ -198,14 +198,13 @@ var i = 0;
 var txt = 'My Profile'; /* The text */
 var speed = 1; /* The speed/duration of the effect in milliseconds */
 
-function run() {
+function run(){
   if (i < txt.length) {
     document.getElementById("prof").innerHTML += txt.charAt(i);
     i++;
     setTimeout(run, speed);
   }
 }
-	
 /*slided my two div one- image and second - name*/ 
 
 /* show / hide scroll to top button - jquery */
