@@ -54,6 +54,9 @@ nav.topbar{
 
 }
 
+#magic{
+	background-color: #7FFF00;
+}
 #profile{
 	/*background-color:#E59866  ;*/
 	/*border-radius: 25%; */           /* boder radius property*/
@@ -62,6 +65,7 @@ nav.topbar{
 	padding-top: 5%;
 	padding-bottom:5%;
 	opacity: 0.8;
+	background-color: #CD5C5C;
 }
 
 #skills{
@@ -75,7 +79,7 @@ nav.topbar{
 }
 #contact{
 	border-radius: 25px;
-
+        background-color: #FFD700;
 	border: 2px solid #73AD21;
 	/*background-color: #85929E  ;*/
 	padding-top: 5%;
