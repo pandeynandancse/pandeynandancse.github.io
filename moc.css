@@ -1,0 +1,24 @@
+.web{
+    
+	margin-top:5%;
+
+}
+.web:hover{
+	cursor:pointer;
+}
+
+.web_theory{
+	display:none;
+	
+	margin-top:1%;
+}
+.webapp_theory{
+	display:none;
+	
+	margin-top:1%;
+}
+.python_theory{
+	display:none;
+	
+	margin-top:1%;
+}
