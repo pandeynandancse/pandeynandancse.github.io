@@ -1,183 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>My Portfolio</title>
-  <meta charset="utf-8">
-	<link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU5_dwsmzOHA6nHuS3_MYHceDLsHMvyVBXXLJ_ekO3KTXcpYXKww">
-   <link rel="stylesheet" type="text/css" href="portfolio2.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nandan Pandey</title>
+        <link rel = 'icon' href = "img/fav.png" type="image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these for new  fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
-</head>
-	
-<body onload = "script();run();">
-  <div class="container">
-	  <div id = "magic">
-     <div class = "row">
-<nav class="navbar navbar-inverse topbar" id = "navb">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="index.html">Portfolio</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li ><a href="academics.html">Academics</a></li>
-	<li><a href="test.html">Test Scores</a></li>
-        <!--<li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Education <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Page 1-1</a></li>
-            <li><a href="#">Page 1-2</a></li>
-            <li><a href="#">Page 1-3</a></li>
-          </ul>
-        </li>-->
-        <li><a href="#" id = "skils">Skills</a></li>
-        <li><a href="#" id = "myprofile">My Profile</a></li>
-        <li><a href="signup.html" >Signup/Login</a></li>
-         <li><a href="address.html">Address</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" id ="contacting" ><span class="glyphicon glyphicon-user"></span> Contact Us</a></li>
-        <li><a href="mooc.html"><span class="glyphicon glyphicon-log-in"></span> MOOC's</a></li>
-      </ul>
-    </div>
-  
-</nav>
-</div>
-  <br>
-      <div class = "row" id = "first">
-            <div class = "col-sm-6 col-md-6 col-lg-6"  id = "photos">
-            	
-             <img id = "img2" src = "images/nandan_pandey.jpeg" alt="Nandan Pandey">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Interests</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Scores</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Nandan Pandey</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Studying At NIT Kurukshetra</p>
+            <img src="img/nandan.jpg" alt="A picture of Nandan Pandey" class="intro__img">
+        </section>
+        
+        
+        <!-- My Interests -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">My Interests</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Web Development</h3>
+                    <p>Designing and development of web apps and desktop apps using different technologies such as php, sql, flask(Python) and Java. Currently also studying React as it is currently trending in various industries.Vuejs and Django is are also other important frameworks to learn. Using Heroku for deployment.</p>
+                </div> 
+                
+                <div class="service">
+                    <h3>Machine Learning</h3>
+                    <p>Machine Learning is one of the trending and exciting fields to work in. Deep Learning is one of it's subsets and various fields are related to it such as Statistics, Visualization, Computer Vision, Natural Language Processing and Image Processing etc. Combining all these fields create field of Artificial Intelligence.</p>
+                </div> 
+                
+                <div class="service">
+                    <h3>Cyber Security</h3>
+                    <p>I am puruing my Masters in Cyber Security, My area of Interest is Cryptography and Attacks analysis using Machine Learning Techniques. This field will be on top in upcoming year beacuse now a days everything is digitalized and thus security is top most priority and thus demand of security professional will also increase. </p>
+                </div> 
+            </div> 
             
- 			 
-            </div>
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Pursuing Masters From NIT Kurukshetra</p>
+           
+           <div class="about-me__body">
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
+               <p>Myself Nandan Pandey from Pratapgarh , Uttar Pradesh - 230121 . Completed High School from Sewa Shram Inter College ,Dhindhui, Pratapgarh(U.P.) and Intermediate from Raja Harpal Singh Inter College, Singramau Jaunpur(U.P.). Pursued Bachelor Degree from Shri Mata Vaishno Devi University, Katra , Jammu & Kashmir(J&K).</p>
+           </div>
+           
+           <img src="img/ml.jpg" alt="Jane leaning against a bus" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
             
-            <div class = "col-sm-6 col-md-6 col-lg-6" id = "name">
-              <strong>Name : </strong>Nandan Pandey<br><br>
-              <strong>College : </strong>Shri Mata Vaishno Devi University<br><br>
-              <strong>Qualification : </strong>Bachelor of Techonology(CSE)<br><br>
-              <strong>Blood Group : </strong>O +ve<br><br>
-              <strong>Address : </strong>Sailakha, Pratapgarh (Uttar Pradesh)<br><br>
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="realornot.html" class="portfolio__item">
+                    <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="mnist.html" class="portfolio__item">
+                    <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="titanic.html" class="portfolio__item">
+                    <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 08 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 09 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 0 0-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
+                </a>
             </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="#" class="footer__link">Contact Me</a>
+            <ul class="social-list">
+               
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.quora.com/profile/Nandan-Pandey-8" title = 'quora'>
+                        <i class="fab fa-quora"></i>
+                    </a>
+                </li>
 
-      </div>
-	  </div>
-<hr>
-    <div  id = "profile" >
-      <div class = "row">
-        <p class = "me" id = "prof"></p>
-
-      </div><br>
-      <div class = "row">
-         <a href = "https://www.linkedin.com/in/nandan-pandey"><div class = "col-6 col-sm-3 col-md-3 col-lg-3 cont">
-            <img class = "im" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/1200px-Linkedin.svg.png" title = "linkedin">
-          </div></a>
-          <a href = "https://github.com/pandeynandancse"><div class = "col-6 col-sm-3 col-md-3 col-lg-3 cont">
-            <img class = "im" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-8qjtsh9MUe0_zWeQT4BCGmXzP9hZcHybv88hM7DkjVYoEKPvIQ" title="github" >
-          </div></a>
-          <a href = "https://www.hackerrank.com/pandeynandancse"><div class = "col-6 col-sm-3 col-md-3 col-lg-3 cont">
-            <img class = "im" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9bWqutxIcJk-Bt3TV8ZRHXglqsF9dJwj-kX5gQjLGS0slWVrp" title = "hackerrank">
-          </div></a>
-          <a href = "https://www.codecademy.com/pandeynandancse"><div class = "col-6 col-sm-3 col-md-3 col-lg-3 cont">
-            <img class = "im" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs-JQxCbchj6Xxt-RvTT3B_0RS-wDecZaNbYajM4nOFMhlsK2Ziw" title="codecademy">
-          </div></a>
-          
-          
-      </div>
-    </div>
-
-      <hr>
-
-      <div class = 'scrolltotop' style="background-color: green">
-      <i class="fa fa-arrow-up fa-2x" id = "scrol" aria-hidden="true" title = "scroll to top"></i>
-      </div>
-
-      <div id = "skills">
-            <div class = "row">
-              <p class = "me">Skills</p>
-
-            </div><br>
-
-            <div class = "row">
-                   <div class = "col-6 col-sm-3 col-md-3 col-lg-3 cont" >
-                      <img class = "imm" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" title = "hmtl5">
-                    </div>
-                    <div class = "col-6 col-sm-3 col-md-3 col-lg-3 cont"  >
-                      <img class = "imm" src = "https://www.lifewire.com/thmb/s9kfBeuaF14VAGgE-SjDB-L0ZDs=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/css3-57b597e85f9b58b5c2b338de.png" title="css3" >
-                    </div>
-                    <div class = "col-6 col-sm-3 col-md-3 col-lg-3 cont" >
-                      <img class = "imm" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfHgNc9o00SUP0cbiKzPYW2ILw06uAc1hY86yprW6jiTj0Ffsd" title = "javascript">
-                    </div>
-                    <div class = "col-6 col-sm-3 col-md-3 col-lg-3 cont" >
-                      <img class = "imm" src = "https://cdn-images-1.medium.com/max/1600/0*g3ns8QALNBBH7CBA." title="jquery">
-                          </div>
-                        </div>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/nandan-pandey/" title = 'linkedin'>
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com" title = 'twitter'>
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/pandeynandancse" title = 'github'>
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://kaggle.com" title = 'kaggle'>
+                        <i class="fab fa-kaggle"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.hackerrank.com/pandeynandancse" title = 'hackerrank'>
+                        <i class="fab fa-hackerrank"></i>
+                    </a>
+                </li>
 
 
-                        <div class = "row">
-                          <br><br>
-                          <div class = "col-6 col-sm-3 col-md-3 col-lg-3 cont">
-                      <img class = "imm21" src = "https://getbootstrap.com/docs/4.1/assets/img/bootstrap-stack.png" title="bootstrap">
-                          </div>
-                          <div class = "col-6 col-sm-3 col-md-3 col-lg-3 cont">
-                      <img class = "imm21" src = "https://hackr.io/tutorials/learn-php/logo/logo-php?ver=1534756059" title="php">
-                          </div>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.hackerrank.com/pandeynandancse" title = 'codecademy'>
+                        <i class="fab fa-codecademy"></i>
+                    </a>
+                </li>
 
-                          <div class = "col-6 col-sm-3 col-md-3 col-lg-3 cont">
-                      <img class = "imm21" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXEiBFXESoqZtnFC3awUA5KQzGQ3VQOP-lw_pLXjmOa0T4oXwl4g" title="sql">
-                          </div>
-                          <div class = "col-6 col-sm-3 col-md-3 col-lg-3 cont">
-                      <img class = "imm21" src = "https://www.python.org/static/opengraph-icon-200x200.png" title="python">
-                          </div>
-          
-          
-            </div>
-
-            <div class = "row">
-                          <br><br>
-                           <div class = "contx">
-                           <img class = "imm21" id="java" src = "https://cdn-images-1.medium.com/max/2000/1*iIXOmGDzrtTJmdwbn7cGMw.png" title="java">
-                         </div>
-            </div>
-      </div>
-
-<hr>
-
-<div id = "contact">
-            <div class = "row">
-               <p class = "me">Contact Us</p>
-
-            </div><br>
-            <div class = "row" id = "mail">
-              <div class ="col-sm-2 col-md-2 col-lg-2" ></div>
-                <div class = "col-sm-3 col-md-3 col-lg-3 co" >
-                  <img class = "ima2" src = "https://www.clker.com/cliparts/4/t/u/Y/I/Q/big-phone-red.svg" alt="Mobile:"><span class= "pho">9906677387</span>
-                </div>
-
-                <div class = "col-sm-3 col-md-3 col-lg-3 co">
-                  <img class = "ima" src = "http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c543.png" alt="Whatsapp:"><span class="pho">9906677387</span>
-                </div>
-              
-              <div class = "col-sm-3 col-md-3 col-lg-3 co" id ="coo">
-                  <img class = "ima" id ="imma" src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS69m38MLs5vzvScwS5mM0zBdXxjGFTNhD6OB4wjlV2D5C48-M9" alt="Email">&nbsp;<small><span class="pho">pandeynandancse@gmail.com</span></small>
-                </div>
-             
-             <div class ="col-sm-1 col-md-1 col-lg-1" ></div>
-
-            </div>
-      </div>
-
-</div>
-<!-- jquery smooth scroll to id's --> 
-  <script src="js/index.js"></script>
-</body>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
 </html>
