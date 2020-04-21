@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nandan Pandey</title>
+        <link rel = 'icon' href = "img/fav.png" type="image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+
+        <!-- google font api -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Interests</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Scores</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Project : <strong>MNIST</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Multiclass Classification</p>
+            <img src="img/portfolio-01.jpg" alt="" class="intro__img">
+        </section>
+        
+        <div class="portfolio-item-individual">
+            <p>Two Datasets : train.csv , test.csv <br> Link : <a href = "https://www.kaggle.com/c/digit-recognizer">Link to Dataset</a> &nbsp; &nbsp; &nbsp;<a href ="#" >Link to Kaggle Notebook</a></p>
+            <img src="img/portfolio-details.jpg" alt="">
+            <p>Category :<i> Classification </i><br>Steps : <br>a) Load dataset using Pandas  ==>> pixels of each image is given row-wise &amp; no. of rows tells no. of images.<br>
+            	b) Seperate label column from train dataset<br>
+                c) Re-scale train and test image from [0...255] to [0..1] ==>>  train/255 and test/255.<br>
+                d) Resize train nd test image into three dimensions from one dimension ==>>  (-1, 28,28,1).<br>
+                e) Above step means each image's height and width is of now 28 and channels is 1. <br>
+                f) Now convert training label into categorical values (one hot encoding) using tensorflow's to_categorical() method.<br>
+                g) Training and validation split of features and label  using sklearn.model_selection import train_test_split.<br>
+                h) Create convolution nueral network and select proper optimizer with some learning rate and then compiler your model using categorical crossentropy.<br>
+                i) Set learning rate annealer i.e. ReduceLRonPlateau so that if no improvement is seen in monitorng metrics LR can be decreased by some factor.<br>
+                j) For image data augmentation of training data use ImageDataGenerator (<strong>Note:</strong> Augmentation is not done on validation or test dataset).<br>
+                k) Now fit model using fit_generator and take data using flow() or flowfromdataframe() or flowfromdirectory() according to location of dataset.<br>
+                l) Lastly predict on test set.
+            </p>
+            <br>
+            <p>If you have any queries please contact me on my any given account.</p>
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="#" class="footer__link">Contact Me</a>
+            <ul class="social-list">
+                
+                <!--codepen, dribble-->
+                    
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.quora.com/profile/Nandan-Pandey-8" title = 'quora'>
+                        <i class="fab fa-quora"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/nandan-pandey/" title = 'linkedin'>
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com" title = 'twitter'>
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/pandeynandancse" title = 'github'>
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://kaggle.com" title = 'kaggle'>
+                        <i class="fab fa-kaggle"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.hackerrank.com/pandeynandancse" title = 'hackerrank'>
+                        <i class="fab fa-hackerrank"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.hackerrank.com/pandeynandancse" title = 'codecademy'>
+                        <i class="fab fa-codecademy"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
