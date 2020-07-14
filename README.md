@@ -40,7 +40,7 @@ If you'd like to do some contribution, feel free to do so by opening a pull requ
 
 [<img target="_blank" src="https://i.imgur.com/BF5L5F2.png" width=170>
 <img target="_blank" src="https://i.imgur.com/qCrZlPL.png" width=170>
-<img target="_blank" src="https://i.imgur.com/a71rDjo.png" width=170>]
+<img target="_blank" src="https://i.imgur.com/a71rDjo.png" width=170>](https://www.javascript.com/)
 
 
 ## Contributor
