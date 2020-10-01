@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<link rel = "icon" href = "unnamed.jpg" sizes = "16x16" type = "image/jpg">
+		<title>Experiment File | HTML</title>
+		
+		<link rel = "stylesheet" href = "style sheet for experiment.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	</head>
+
+	<body>
+
+		<div class = "header_container">
+
+			<header class = "page_header">
+
+				<h1>An Online Survey</h1>
+				<h4>Conducted by <b><i style="color:#66ff66;font-weight: 500;font-size: 20px;">Pranjal Pandey</i></b></h4>
+				<h4>Department of Statistics</h4>
+				<h4>Banaras Hindu University</h4>
+				<h5>Varanasi, Uttar Pradesh, 221005</h5>
+
+			</header>
+
+		</div>
+
+			<div class = "first_container">
+
+				<main>
+
+					<form action = "file.php" method="post" >
+
+						<br>
+
+						<label class="label"><b>Your Name</b></label><br>
+							<input type = "text" name = "name" required class="input"><br>
+
+						<br>
+
+						<label class="label"><b>Your Email</b></label><br>
+							<input type = "email" name = "email" required class="input"><br>
+
+						<br>
+
+						<label class="label"><b>Your Mobile Number</b></label><br>
+							<input type = "tel" name = "number" class="input" pattern = "[0-9]{10}"><br>
+
+						<br>
+
+						<label class="label"><b>Your Age</b></label><br>
+							<select name = "age" class="input" required>
+								<option value = "Below 16">Below 16</option>
+								<option value = "16 to 20">16 to 20</option>
+								<option value = "21 to 30">21 to 30</option>
+								<option value = "31 to 40">31 to 40</option>
+								<option value = "41 to 50">41 to 50</option>
+								<option value = "51 to 60">51 to 60</option>
+								<option value = "Above 60">Above 60</option>
+							</select><br>
+
+						<br>
+
+
+						<label class="label"><b>Your address</b></label><br>
+							<textarea type = "text" name = "address" class="input" style="height:70px;width:50%"></textarea><br>
+
+						<br>
+
+						<label class="label"><b>What is your Highest Qualfication ?</b></label><br>
+							<label for="ug">
+								<input id="ug" type="radio" name="qualification" value="UG" checked> U.G.
+							</label><br>
+							<label for="pg">
+								<input id="pg" type="radio" name="qualification" value="PG"> P.G.
+							</label><br>
+							<label for="phd">
+								<input id="phd" type="radio" name="qualification" value="PHD" > Ph.D.
+							</label><br>
+
+						<br>
+
+
+						<label class="label"> <b>Which of the following best suits you ?</b></label><br>
+							<label for="gov_emp">
+								<input id="gov_emp" type="radio" name="profession" value="Goverment Employee"> Goverment Employee
+							</label><br>
+							<label for="pvt_emp">
+								<input id="pvt_emp" type="radio" name="profession" value="Private Employee"> Private Employee
+							</label><br>
+							<label for="no_emp">
+								<input id="no_emp" type="radio" name="profession" value="Not an Employee" checked > Not an Employee
+							</label><br>
+
+						<br>
+
+						<label class="label"><b>Your Institute/Company Name</b></label><br>
+							<input type = "text" name = "icname" required class="input"><br>
+
+						<br>
+
+						<label class="label"><b> What you like most ? </b></label><br>
+							<label for="ds">
+								<input id="ds" type="checkbox" name="like[]" value="Descriptive Statistics" > Descriptive Statistics
+							</label><br>
+							<label for="is">
+								<input id="is" type="checkbox" name="like[]" value="Inferential Statistics"> Inferential Statistics
+							</label><br>
+							<label for="ps">
+								<input id="ps" type="checkbox" name="like[]" value="Predictive Statistics" > Predictive Statistics
+							</label><br>
+							<label for="prs">
+								<input id="prs" type="checkbox" name="like[]" value="Prescriptive Statistics" > Prescriptive Statistics
+							</label><br>
+							<label for="none">
+								<input id="none" type="checkbox" name="like[]" value="None" checked> None of the above
+							</label><br>
+
+						<br>
+
+						<label class="label"><b>Show your love with Statistics on Rating scale (<i>1 to 5</i>)</b></label><br>
+							<br>
+							<div class ="rate_div"><input type = "range" name = "rate" min = "1" max = "5" value = "1" class = "rate_input" pattern="">
+								
+								<pre><label><b>1     2     3     4     5</b></label></pre>
+
+							</div><br>
+
+
+						<br>
+
+						
+						<button type="submit" class="submit_button button2" onclick = "alert('Are you sure ?  Want to Submit ')"><b style="color:blue;">Submit</b></button><br>
+						
+
+						<br>
+
+
+
+
+					</form>
+
+				</main>
+
+					
+			</div>
+
+		<div class = "footer_container">
+
+			<footer class = "page_footer">
+
+				<h4>Developed and Designed by Pranjal Pandey</h4>
+
+			</footer>
+
+		</div>
+
+	</body>
+
+</html>
